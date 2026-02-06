@@ -1,12 +1,13 @@
 baseURL = "https://benoitlecallennec-hes.github.io/template_website_course/"
 relativeURLs = false
 languageCode = "fr"
-title = "HE-Arc | 9999.9 Support de cours"
+title = "HE-Arc | 9999.9 Template de cours"
 theme = "book"
 enableGitInfo = true
 
 [params]
 BookSearch = false
+BookRepo = "https://github.com/benoitlecallennec-hes/template_website_course"
 
 [Taxonomies]
   tag = "tags"
@@ -22,4 +23,7 @@ lineNumbersInTable = true
 noClasses = true
 style = "vs"
 
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
   
