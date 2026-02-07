@@ -27,15 +27,12 @@
 {{- end -}}
 
 {{- $src := false -}}
-{{- $hit := "" -}}
-
 {{- range $try -}}
   {{- if not $src -}}
     {{- $p := . -}}
     {{- $tmp := site.GetPage $p -}}
     {{- if $tmp -}}
       {{- $src = $tmp -}}
-      {{- $hit = $p -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
@@ -52,4 +49,11 @@
   -}}
 {{- end -}}
 
-{{- $noop := .Page.RenderString (dict "display" "block") $src.RawContent -}}
+{{- $src.Scratch.Set "RENDERING_SLIDES" true -}}
+{{- $src.Scratch.Set "reveal_slides" (slice) -}}
+
+{{- $noop := $src.RenderString (dict "display" "block") $src.RawContent -}}
+
+{{- .Page.Scratch.Set "reveal_slides" ($src.Scratch.Get "reveal_slides" | default (slice)) -}}
+
+{{- $src.Scratch.Delete "RENDERING_SLIDES" -}}

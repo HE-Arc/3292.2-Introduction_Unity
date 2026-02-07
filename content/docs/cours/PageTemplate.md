@@ -417,7 +417,7 @@ public class HelloWorld : MonoBehaviour
 }
 {{< / highlight >}}
 
-{{< slide class="code-large" >}}
+{{< slide class="code-medium" >}}
 ## Code
 ### Dans le texte
 Sur une même ligne `int i = 0;`, ou sur plusieurs :

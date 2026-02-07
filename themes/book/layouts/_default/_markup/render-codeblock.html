@@ -1,7 +1,7 @@
 {{- $lang := .Type | default "" -}}
 {{- $code := .Inner -}}
 
-{{- if eq .Page.Layout "slides" -}}
+{{- if .Page.Scratch.Get "RENDERING_SLIDES" -}}
   {{- $class := "" -}}
   {{- with $lang -}}
     {{- $class = printf ` class="language-%s"` . -}}
@@ -10,4 +10,3 @@
 {{- else -}}
   {{- highlight $code $lang "" -}}
 {{- end -}}
-
