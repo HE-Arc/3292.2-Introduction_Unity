@@ -1,10 +1,11 @@
 {{- $base := .Page.File.BaseFileName -}}
+{{- $dir  := strings.TrimSuffix "/" .Page.File.Dir -}}
+
 {{- if not (strings.HasSuffix $base "-SLIDES") -}}
-  {{- errorf "extract_slides_from_chapter: current page '%s' must end with '-SLIDES'." $base -}}
+  {{- errorf "extract_slides_from_chapter: current page must end with '-SLIDES'. base=%q file=%q dir=%q" $base .Page.File.Path $dir -}}
 {{- end -}}
 
 {{- $srcBase := strings.TrimSuffix "-SLIDES" $base -}}
-{{- $dir := strings.TrimSuffix "/" .Page.File.Dir -}}
 
 {{- $srcPath := "" -}}
 {{- if $dir -}}
@@ -13,9 +14,42 @@
   {{- $srcPath = printf "/%s" $srcBase -}}
 {{- end -}}
 
-{{- $src := site.GetPage $srcPath -}}
+{{- $try := slice
+    $srcPath
+    (strings.TrimPrefix "/" $srcPath)
+    (printf "%s.md" $srcPath)
+    (printf "%s.md" (strings.TrimPrefix "/" $srcPath))
+-}}
+
+{{- if $dir -}}
+  {{- $try = $try | append (printf "%s/%s" $dir $srcBase) -}}
+  {{- $try = $try | append (printf "%s/%s.md" $dir $srcBase) -}}
+{{- end -}}
+
+{{- $src := false -}}
+{{- $hit := "" -}}
+
+{{- range $try -}}
+  {{- if not $src -}}
+    {{- $p := . -}}
+    {{- $tmp := site.GetPage $p -}}
+    {{- if $tmp -}}
+      {{- $src = $tmp -}}
+      {{- $hit = $p -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 {{- if not $src -}}
-  {{- errorf "extract_slides_from_chapter: source page not found: %s (derived from %s)" $srcPath $base -}}
+  {{- errorf
+      "extract_slides_from_chapter: source page not found.\nslides_file: %q\nbase: %q\ndir: %q\nsrcBase: %q\nderived_srcPath: %q\ntried:\n- %s"
+      .Page.File.Path
+      $base
+      $dir
+      $srcBase
+      $srcPath
+      (delimit $try "\n- ")
+  -}}
 {{- end -}}
 
 {{- $noop := .Page.RenderString (dict "display" "block") $src.RawContent -}}
