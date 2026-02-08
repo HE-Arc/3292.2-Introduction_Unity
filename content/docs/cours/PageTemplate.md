@@ -513,7 +513,9 @@ Il faut prendre l'id uniquement. En particulier, il ne faut pas mettre les guill
 {{<pdf src="https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3088.pdf">}}
 
 ## Reveal.js Slides
-Les slides Reveal.js sont générées automatiquement à partir des blocs ***{{</* slide */>}}*** et ***{{</* /slide */>}}*** directement inclus dans la page.
+{{<slides "https://he-arc.github.io/1242.2-Langage_CPP-SLIDES/00_Organisation.html">}}
+
+[Version imprimable (faire CTRL+P)](https://he-arc.github.io/1242.2-Langage_CPP-SLIDES/00_Organisation.html?print-pdf)
 
 ## Colonnes
 {{< columns >}} <!-- begin columns block -->
