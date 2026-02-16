@@ -9,10 +9,10 @@ draft: true
 ## Récupérer le template
 1. Se rendre sur **[le git contenant un template](https://gitlab-etu.ing.he-arc.ch/benoit.lecallen/template_website)**.
 2. Cliquer sur le bouton **`Fork`**.
-{{< figure src="/images/AE_Fork.png#center" >}}
+{{<figure src="images/AE_Fork.png#center" >}}
 3. Éditer le champ **`Project name`** (voir Figure ci-dessous).
 4. Dans le champ **`Select a namespace`**, choisir votre espace personnel (voir Figure ci-dessous).
-{{< figure src="/images/AE_ForkedProject.png#center" >}}
+{{<figure src="images/AE_ForkedProject.png#center" >}}
 **ATTENTION :** bien laisser la visibilité du projet sur **`Internal`**.
 5. Cliquer sur le bouton **`Fork project`**.
 6. Se rendre dans son espace personnel et cloner son repository.

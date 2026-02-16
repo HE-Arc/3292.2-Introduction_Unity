@@ -1,0 +1,28 @@
+@startuml RenderingPipeline
+:<b>Définition des vertices</b>
+Préparation des vertices passés au
+pipeline de rendu.;
+
+#RoyalBlue:<b>Vertex Shader</b>
+Calcul de la position de chaque vertex.;
+
+:<b> Vertex Post-Processing</b>
+Les vertices sont modifiés pour être
+passés dans la suite du pipeline.;
+
+:<b> Création des primitives</b>
+Les vertices sont assemblés pour
+créer des primitives (points, lignes ou faces).;
+
+:<b> Rastérisation</b>
+Les primitives sont projetées sur l'écran
+et découpées en fragments (pixels).;
+
+#RoyalBlue:<b>Fragment Shader</b>
+Calcul de la couleur de chaque fragment.;
+
+:<b>Fragment Post-Processing</b>
+Plusieurs opérations sont finalement
+appliquées aux fragments.;
+
+@enduml

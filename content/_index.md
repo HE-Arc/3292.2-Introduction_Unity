@@ -1,59 +1,40 @@
 ---
-title: 9999.9 Support de cours
+title: 3292.2 Introduction à Unity
 type: docs
 ---
 
-# 9999.9 Page d'accueil pour le cours
+# 3292.2 Introduction à Unity
 
-## Horaires et salles
-**Groupe ISC3il-a :** les jeudis de 8h15 à 10h45 en salle NE120.
+Durant ce cours, nous utiliserons la Unity 6 disponible ici : [https://unity.com/releases/unity-6](https://unity.com/releases/unity-6).
 
-**Groupe ISC3il-b :** les jeudis de 14h05 à 16h40 en salle NE120.
+## Encadrants
+Antoine Lestrade et Benoit Le Callennec.
+
+## Horaires
+**Groupe ISC3il-a :** les lundis de 15h05 à 17h25 en salle NE112.
 
 ## Calendrier
 Calendrier sujet à modifications.
 
-| Semaine | À VOIR / À LIRE / À FAIRE |
-|---------|------------------|
-| #1  | CHAPITRE 0 : INTRODUCTION |
-| #1  | CHAPITRE 1 : CONCEPTS FONDAMENTAUX |
-| #2  | CHAPITRE 2 : --- |
-| #3  | CHAPITRE 3 : --- |
-| #4  | CHAPITRE 4 : --- |
-| #5  | CHAPITRE 5 : --- |
-| #6  | CHAPITRE 6 : --- |
-| #7  | CHAPITRE 7 : --- |
-| #8  | PROJET |
-| #9  | PROJET |
-| #10 | --- |
+| SEMAINE | À FAIRE                                         |
+|---------|-------------------------------------------------|
+| #1      | Chapitre 0 : INTRODUCTION                       |
+| #1      | Chapitre 1 : CONCEPTS FONDAMENTAUX              |
+| #2      | Chapitre 2 : CAMÉRAS, MATÉRIAUX ET ILLUMINATION |
+| #3      | Chapitre 3 : SCRIPTING (C#)                     |
+| #4      | Chapitre 4 : ANIMATION 3D                       |
+| #5      | Chapitre 5 : ILLUMINATION GLOBALE               | 
+| #6      | Chapitre 6 : POST-PROCESSING                    |
+| #7      | Chapitre 7 : SHADER GRAPH                       |
+|         | **Vacances**                                    |
+| #8      | Projet                                          |
+| #9      | Projet                                          |
+| #10     | Projet                                          |
+| #11     | **Présentations**                               | 
 
-## Contrôle Principal
+## Évaluations
 
-**Jeudi 11 mai 2023 :** CP.
+- 1 QCM Hebdomadaire sur le chapitre de la semaine précédente (40% de la note finale).
+- Projet de groupe (60% de la note finale).
 
-## Projet
-
-**Vendredi 12 mai 2023, 23h59 :** rendu final du projet.
-
-Ce projet se déroule par groupe de 3.
-Des changements sont toutefois possibles si besoin.
-Le but est de démontrer que vous connaissez les bases en intégrant plusieurs notions de manière pertinente dans un projet global.
-
-Votre projet doit intégrer une majorité des points importants introduits en cours :
-- Concept #1
-- Concept #2
-- Concept #3
-- Concept #4
-- Concept #5
-- Concept #6
-- Concept #7
-
-  Il est aussi possible d'utiliser d'autres concepts non-abordés en cours.
-Il en sera tenu compte lors de l'évaluation finale du projet.
-
-### À RENDRE
-- **Repo git propre :** il faut pouvoir faire git clone et lancer l'application.
-- **Rapport :** il faut expliquer quoi regarder succinctement.
-Quelques pages suffisent.
-- **Vidéo de démo (avec voix-off et crédits) :** il faut démontrer les principales fonctionnalités de votre projet (2 minutes maximum).
-- **Un exécutable :** on double-clique, ça s'exécute.
+**Vendredi 08 mai 2026, avant 23h59 :** rendu final du projet Unity.
