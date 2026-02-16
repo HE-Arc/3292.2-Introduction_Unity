@@ -58,7 +58,7 @@ La vidéo suivante montre comment modifier un {{<unity_keyword `Transform`>}}, c
 {{< youtube sgLUcdypgy4 >}}
 
 ## Slides
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap1_ConceptsFondamentaux.html">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap1_ConceptsFondamentaux.html">}}
 
 ## Références
 [^1]: [GameObjects, Unity](https://docs.unity3d.com/Manual/GameObjects.html)

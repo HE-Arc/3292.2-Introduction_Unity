@@ -87,7 +87,8 @@ Enfin, il est possible de modifier la manière dont Unity va importer vos ***Ass
 </center>
 
 ## Slides
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap1_ConceptsFondamentaux.html">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap1_ConceptsFondamentaux.html">}}
+
 
 ## Références
 [^1]: [Prefabs, Unity](https://docs.unity3d.com/Manual/Prefabs.html)
