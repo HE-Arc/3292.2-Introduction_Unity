@@ -131,11 +131,8 @@ Pour ce faire, il faut aller dans le {{<unity_keyword `Light Component` >}} et m
 {{<figure src="images/UnityLightComponentShadows.png#center" >}}
 
 ## Slides
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap2_CamerasMateriauxEtIllumination.html">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap2_CamerasMateriauxEtIllumination.html">}}
 
 ## Références
 [^1]: [Lights, Unity](https://docs.unity3d.com/Manual/class-Light.html)
 [^2]: [The Lighting window, Unity](https://docs.unity3d.com/Manual/lighting-window.html)
-
-
-

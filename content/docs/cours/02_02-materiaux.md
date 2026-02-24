@@ -45,7 +45,7 @@ Pour ce faire, on peut :
 - tout simplement faire un drag-and-drop sur l'objet 3D dans la scène.
 
 ## Slides
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap2_CamerasMateriauxEtIllumination.html">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap2_CamerasMateriauxEtIllumination.html">}}
 
 ## Références
 [^1]: [Creating and Using Materials, Unity](https://docs.unity3d.com/Manual/Materials.html)

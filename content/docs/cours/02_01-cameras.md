@@ -73,7 +73,7 @@ Les {{<unity_keyword `Render Textures` >}} sont utiles par exemple pour :
 - simuler des caméras de surveillance. On positionne des {{<unity_keyword Cameras>}} là où il y a des caméras de surveillance dans la scène 3D. Ensuite, les images calculées par les {{<unity_keyword Cameras>}} sont stockées en temps-réel dans des {{<unity_keyword `Render Texture` >}}. Ces textures sont finalement plaquées sur des objets 3D représentant des écrans dans la scène 3D.
 
 ## Slides
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap2_CamerasMateriauxEtIllumination.html">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap2_CamerasMateriauxEtIllumination.html">}}
 
 ## Références
 [^UnityBuiltInCamera]: [Cameras, Built-in Pipeline, Unity](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@10.7/manual/cameras.html)

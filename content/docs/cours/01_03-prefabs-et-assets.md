@@ -89,6 +89,13 @@ Enfin, il est possible de modifier la manière dont Unity va importer vos ***Ass
 ## Slides
 {{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap1_ConceptsFondamentaux.html">}}
 
+## À savoir
+- Savoir reconnaître les différentes fenêtres de l'interface de Unity et leur utilité.
+- Savoir ce qu'est un ***GameObject***.
+- Savoir ce qu'est un ***Component***.
+- Savoir ce qu'est un ***Prefab***.
+- Savoir ce qu'est un ***Asset***.
+- Savoir ce qu'est un ***Gizmo***.
 
 ## Références
 [^1]: [Prefabs, Unity](https://docs.unity3d.com/Manual/Prefabs.html)
