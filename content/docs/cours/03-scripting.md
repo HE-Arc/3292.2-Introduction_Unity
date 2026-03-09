@@ -16,7 +16,7 @@ S'il n'est pas présent, alors il est automatiquement créé en cliquant sur {{<
 Le script peut ensuite être ouvert dans votre IDE en double-cliquant dessus.
 Il ressemble à ce qui suit :
 
-{{< highlight csharp "linenos=table,hl_lines=8 14">}}
+{{<highlight csharp "linenos=table,hl_lines=8 14">}}
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,7 +35,7 @@ public class HelloWorld : MonoBehaviour
         
     }
 }
-{{< / highlight >}}
+{{</highlight>}}
 
 Le script contient déjà 2 fonctions importantes : `void Start()` et `void Update()`.
 Comme indiqué dans les commentaires : 
@@ -435,8 +435,7 @@ Il est aussi possible d'appeler {{<unity_keyword `StopCoroutine` >}} en passant 
 {{</hint >}}
 
 ## Slides
-
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap3_Scripting.html#/">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap3_Scripting.html">}}
 
 ## Références
 
