@@ -236,7 +236,7 @@ public class UserControls : MonoBehaviour
 
 ## Slides
 
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap4_Animation3D.html">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap4_Animation3D.html">}}
 
 ## Références
 [^1]: [Animator Controllers, Unity](https://docs.unity3d.com/Manual/AnimatorControllers.html)

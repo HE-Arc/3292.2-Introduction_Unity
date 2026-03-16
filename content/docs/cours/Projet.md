@@ -35,7 +35,7 @@ Il est aussi possible d'utiliser d'autres concepts non-vus en cours comme la sim
 Il en sera tenu compte lors de l'évaluation finale du projet.
 
 ## Mise en place
-Le repo principal GitLab se trouve ici : [https://gitlab-etu.ing.he-arc.ch/isc/2024-25/niveau-3/3292.2-infographie-unity-il/3292_main](https://gitlab-etu.ing.he-arc.ch/isc/2024-25/niveau-3/3292.2-infographie-unity-il/3292_main)
+Le repo principal GitLab se trouve ici : [https://gitlab-etu.ing.he-arc.ch/isc/2025-26/niveau-3/3292.2-infographie-unity-il/3292_main](https://gitlab-etu.ing.he-arc.ch/isc/2025-26/niveau-3/3292.2-infographie-unity-il/3292_main).
 Il faut dans un premier temps le cloner en local.
 Ensuite, vous devez cloner votre propre repo dans le répertoire **`Assets/_ROOMS`**.
 
