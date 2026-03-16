@@ -133,6 +133,18 @@ Pour ce faire, il faut aller dans le {{<unity_keyword `Light Component` >}} et m
 ## Slides
 {{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap2_CamerasMateriauxEtIllumination.html">}}
 
+## À savoir
+- Savoir reconnaître une caméra dans la scène (frustum).
+- Savoir à quoi sert une lumière ambiante.
+- Connaître les différentes types de lumières temps-réelles, les différences entre elles, et les paramètres associés.
+- Savoir à quoi servent les paramètres des caméras et des lumières.
+- Savoir ce qu'est le Light Explorer et à quoi il sert.
+- Savoir ce qu'est la Skybox.
+- Savoir ce qu'est le brouillard dans une scène 3D et à quoi il sert.
+- Savoir ce qu'est une ombre et à quoi elle sert.
+- Savoir ce qu'est une Light Map.
+- Savoir ce qu'est une Shadow Map.
+
 ## Références
 [^1]: [Lights, Unity](https://docs.unity3d.com/Manual/class-Light.html)
 [^2]: [The Lighting window, Unity](https://docs.unity3d.com/Manual/lighting-window.html)
