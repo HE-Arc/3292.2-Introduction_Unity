@@ -40,7 +40,7 @@ Il faut dans un premier temps le cloner en local.
 Ensuite, vous devez cloner votre propre repo dans le répertoire **`Assets/_ROOMS`**.
 
 ## Développement
-Avant tout, il faut lire la page expliquant comment [Utiliser Git avec Unity](/posts/utiliser-git-avec_unity).
+Avant tout, il faut lire la page expliquant comment [utiliser Git avec Unity]({{< relref "/posts/utiliser-git-avec_unity">}}).
 
 En particulier, toute la salle dont vous êtes responsable doit être contenue dans un Prefab.
 Ce Prefab sera intégré dans la scène principale par les professeurs.
