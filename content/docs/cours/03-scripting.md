@@ -437,6 +437,23 @@ Il est aussi possible d'appeler {{<unity_keyword `StopCoroutine` >}} en passant 
 ## Slides
 {{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap3_Scripting.html">}}
 
+## À savoir
+- Savoir corriger l'erreur suivante : **`"NullReferenceException: Object reference not set to an instance of an object"`**.
+- Savoir créer et "activer" un {{<unity_keyword `Script` >}} dans une scène 3D.
+- Savoir quand réimplémenter les constructeurs et destructeurs d'un {{<unity_keyword `Script` >}}.
+- Savoir écrire une {{<unity_keyword `Coroutine` >}}.
+- Savoir afficher du texte dans la console à l'exécution.
+- Savoir utiliser les {{<unity_keyword `Event Functions` >}} les plus courantes.
+- Savoir faire en sorte que le comportement d'une {{<unity_keyword `Event Function` >}} soit indépendant du frame rate.
+- Savoir à quoi sert l' {{<unity_keyword `Event Functions FixedUpdate()` >}}.
+- Savoir retrouver un {{<unity_keyword `GameObject` >}} à l'exécution en utilisant son nom ou son tag.
+- Savoir récupérer les {{<unity_keyword `Components` >}} d'un {{<unity_keyword `GameObject` >}} à l'exécution.
+- Savoir à quoi sert {{<unity_keyword `Input.GetAxis()`>}}.
+- Savoir instancier et détruire des {{<unity_keyword `GameObjects` >}} à l'exécution.
+- Savoir à quoi sert l'{{<unity_keyword `Event Function LateUpdate()` >}}.
+- Savoir modifier les {{<unity_keyword `Components` >}} d'autres {{<unity_keyword `GameObjects` >}} à l'exécution.
+- Savoir comment rendre visible une variable de {{<unity_keyword `Script`>}} dans l'éditeur de Unity.
+
 ## Références
 
 [^1]: [Debug.Log, Unity](https://docs.unity3d.com/ScriptReference/Debug.Log.html)
