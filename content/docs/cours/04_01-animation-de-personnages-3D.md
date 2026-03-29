@@ -43,6 +43,11 @@ Heureusement, il existe beaucoup d'animations 3D téléchargeables et directemen
 
 ### Unity Asset Store
 
+{{<attention>}}
+Le ***Zombie Animation Pack Free*** n'est plus disponible sur l'Asset Store de Unity.
+Mais les exemples fournis par la suite sont transposables à n'importe quelle animation 3D, et en particulier à celles présentes sur Mixamo.
+{{</attention>}}
+
 L'{{<unity_keyword `Asset Store` >}} de Unity possède de nombreuses animations 3D.
 Dans cette section par exemple, nous allons utiliser le ***Zombie Animation Pack Free*** :
 {{<figure src="images/UnityZombieAnimationPack.png#center" >}}
@@ -237,6 +242,15 @@ public class UserControls : MonoBehaviour
 ## Slides
 
 {{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap4_Animation3D.html">}}
+
+## À Savoir
+- Qu'est-ce qu'un {{<unity_keyword `Animator Controller` >}}, comment il est représenté et à quoi il sert
+- Quel est l'état par défaut d'un {{<unity_keyword `Animator Controller` >}} 
+- Qu'est-ce qu'un {{<unity_keyword `Blend Tree` >}} et à quoi il sert
+- Comment contrôler un {{<unity_keyword `Animator Controller` >}} en temps-réel avec {{<unity_keyword `SetFloat` >}} et {{<unity_keyword `SetTrigger` >}}
+- Identifier les transitions dans un {{<unity_keyword `Animator Controller` >}} et les conditions qui leur sont attachées
+- Qu'est-ce qu'un {{<unity_keyword `Blend Tree` >}} et à quoi il sert
+- Comment une animation dde personnages 3D est représentée en général
 
 ## Références
 [^1]: [Animator Controllers, Unity](https://docs.unity3d.com/Manual/AnimatorControllers.html)
