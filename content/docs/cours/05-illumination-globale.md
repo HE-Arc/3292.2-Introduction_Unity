@@ -110,6 +110,14 @@ Pour activer le mode d'édition, il faut d'abord cliquer sur le bouton {{<unity_
 
 {{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap5_IlluminationGlobale.html">}}
 
+## À savoir
+
+- Qu'est-ce que l'illumination globale et en quoi est-elle différente de l'illumination directe
+- Qu'est-ce que l'occlusion ambiante
+- Qu'est-ce que les {{<unity_keyword `Light Probes` >}} et à quoi servent-ils
+- Que modifier dans un {{<unity_keyword `GameObject` >}} pour qu'il soit pris en compte dans le calcul de l'illumination globale
+- Dans quoi sont stockées les informations de l'illumination globale précalculée
+
 
 ## Références
 
