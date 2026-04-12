@@ -108,7 +108,8 @@ Pour activer le mode d'édition, il faut d'abord cliquer sur le bouton {{<unity_
 
 ## Slides
 
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap5_IlluminationGlobale">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap5_IlluminationGlobale.html">}}
+
 
 ## Références
 
