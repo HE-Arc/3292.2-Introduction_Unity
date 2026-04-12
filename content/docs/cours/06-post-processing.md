@@ -2,7 +2,6 @@
 title: "Chapitre 6 : post-processing"
 ---
 # Chapitre 6 : post-processing
-{{<teaservideo "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/medias/Videos/Chapter6_final.mp4">}}
 
 Les effets de {{<unity_keyword `Post-Processing` >}}[^UnityPostProcessing] sont appliqués à l'image rendue par la caméra dans la scène.
 Ils sont très variés et permettent d'améliorer le rendu final de manière significative.
@@ -48,7 +47,8 @@ Une fois le {{<unity_keyword `Volume` >}} en mode {{<unity_keyword `Local` >}}, 
 Maintenant, quand la caméra entrera dans l'espace défini par ce {{<unity_keyword `Collider` >}}, les effets de {{<unity_keyword `Post-Processing` >}} seront appliqués.
 
 ## Slides
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap6_Post-processing.html">}}
+
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap6_PostProcessing.html">}}
 
 ## Références
 
