@@ -118,7 +118,7 @@ Rajouter la possibilité d'utiliser une texture en entrée de notre {{<unity_key
 
 ## Slides
 
-{{<slides "http://enseignement.pages.ing.he-arc.ch/isc/cours/niveau-3/3292.2-infographie-unity/slides/Chap7_ShaderGraph.html">}}
+{{<slides "https://he-arc.github.io/3292.2-Introduction_Unity-SLIDES/Chap7_ShaderGraph.html">}}
 
 ## Références
 
